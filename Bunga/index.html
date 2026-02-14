@@ -1,51 +1,32 @@
+<!--=========================-!>
+Mau custom web ucapan online & tanpa watermark? Order Aja di Deka Tutorial !! (DM IG untuk order)
++ Youtube: Deka Tutorial
++ Tiktok: @deka_tutorial
++ Instagram: deka_tutorial
+<-===========================-->
 <!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Special For You</title>
-<style>
-body{
-  margin:0;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-  background:#ffdde1;
-  font-family:sans-serif;
-  text-align:center;
-}
-#content{display:none;}
-button{
-  padding:10px 20px;
-  border:none;
-  border-radius:8px;
-  background:#ff4b5c;
-  color:white;
-  font-size:18px;
-}
-</style>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special For You</title>
+    <script src="https://dekatutorial.github.io/flwr/s.js"></script>
+  </head>
+  <body>
+    <div class="open">
+      <i>❤️</i>
+      <span>Klik love nya</span>
+    </div>
 
-<body>
+    <script>
+      ucapan = `Happy Valentine Arinda Yolanica`;
+      musik = `Musik.mp3`;
+      nomorWhatsapp = ``;
+      idTelegram = ``;
 
-<div id="open">
-  <button onclick="mulai()">❤️ Klik Love nya</button>
-</div>
-
-<div id="content">
-  <h2>Happy Valentine Arinda Yolanica</h2>
-  <audio autoplay loop>
-    <source src="Musik.mp3" type="audio/mpeg">
-  </audio>
-</div>
-
-<script>
-function mulai(){
-  document.getElementById("open").style.display="none";
-  document.getElementById("content").style.display="block";
-}
-</script>
-
-</body>
+      DekaTutorial(ucapan, musik, nomorWhatsapp, idTelegram);
+    </script>
+  </body>
 </html>
+
+
